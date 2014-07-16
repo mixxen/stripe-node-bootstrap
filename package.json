@@ -1,0 +1,17 @@
+{
+  "name": "stripe-node-bootstrap",
+  "version": "0.0.1",
+  "description": "An example app for accepting stripe payments with nodejs. Includes a sample bootstrap form.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alexander Cabello",
+  "license": "MIT",
+  "dependencies": {
+    "stripe": "^2.7.3",
+    "express": "^4.6.1",
+    "ejs": "^1.0.0",
+    "body-parser": "^1.4.3"
+  }
+}

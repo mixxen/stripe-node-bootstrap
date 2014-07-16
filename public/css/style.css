@@ -1,0 +1,33 @@
+.cc-number {
+  background-repeat: no-repeat;
+  background-position: 96% 50%;
+  background-size: 35px;
+}
+
+/* Icons from http://www.iconshock.com 
+ * http://www.fancyicons.com/free-icon/101/credit-cards-icon-set/
+ * License: Commercial Use Allowed, Back Link Required 
+ */
+.cc-number.amex {
+  background-image: url(/img/american_express_48.png);
+}
+
+.cc-number.dinersclub {
+  background-image: url(/img/diners_club_48.png);
+}
+
+.cc-number.discover {
+  background-image: url(/img/discover_48.png);
+}
+
+.cc-number.jcb {
+  background-image: url(/img/jcb_48.png);
+}
+
+.cc-number.mastercard {
+  background-image: url(/img/mastercard_48.png);
+}
+
+.cc-number.visa {
+  background-image: url(/img/visa_48.png);
+}
