@@ -7,18 +7,7 @@ var amountToCharge = 999; // amount in cents
 
 app.use(express.static(__dirname + '/public'));
 app.use(bodyParser.urlencoded({ extended: false }));
-app.use(bodyParser.json());
 app.set('json spaces', 2);
-
-app.post("/webhook", function(request, response) {
-  // Retrieve the request's body and parse it as JSON
-  var event_json = JSON.stringify(request.body);
-
-  // Do something with event_json
-  console.log("webhook receive");
-  console.log(event_json);
-  response.status(200).end();
-});
 
 
 
